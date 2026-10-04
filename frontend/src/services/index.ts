@@ -1,5 +1,6 @@
 import api from './api';
 import { clientStore } from './clientStore';
+import { lookupLiveSynsbasen } from './synsbasen';
 import type {
   CarDetail, CarFilters, CarsResponse, FilterOptions,
   VehicleLookupResult, VehicleLookupLeadPayload
@@ -138,6 +139,17 @@ export const leadsService = {
 // ─── Nummerplade & Synsbasen Opslag ───
 export const vehicleLookupService = {
   lookup: async (type: 'registration' | 'vin', value: string): Promise<VehicleLookupResult> => {
+    // 1. Slå altid direkte op i det rigtige Synsbasen API
+    try {
+      const liveData = await lookupLiveSynsbasen(type, value);
+      if (liveData && liveData.found && liveData.make) {
+        return liveData;
+      }
+    } catch (e) {
+      console.warn('Synsbasen live API opslag fejlede:', e);
+    }
+
+    // 2. Hvis der er sat en backend-proxy op
     if (hasBackendUrl) {
       try {
         const { data } = await api.get('/vehicle-lookup', {
@@ -148,6 +160,8 @@ export const vehicleLookupService = {
         // Fallback
       }
     }
+
+    // 3. Fallback til kendte test-presets eller fejlmeddelelse
     return clientStore.vehicleLookup(type, value);
   },
 

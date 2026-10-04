@@ -860,47 +860,10 @@ export const clientStore = {
       };
     }
 
-    // Hvis det er en gyldig nummerplade eller VIN, generer realistiske data
-    if ((type === 'registration' && val.length >= 2 && val.length <= 8) || (type === 'vin' && val.length === 17)) {
-      // Deterministisk udvælgelse baseret på nummerplade-hash
-      const hash = val.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-      const brands = [
-        { make: 'Skoda', model: 'Octavia', variant: '2.0 TDI Combi Style DSG', fuel: 'Diesel', hp: 150, kmL: 22.1 },
-        { make: 'Ford', model: 'Focus', variant: '1.0 EcoBoost Titanium 125HK', fuel: 'Benzin', hp: 125, kmL: 19.8 },
-        { make: 'Volvo', model: 'V60', variant: '2.0 D4 Momentum Aut.', fuel: 'Diesel', hp: 190, kmL: 20.8 },
-        { make: 'BMW', model: '320d', variant: '2.0 Touring M-Sport', fuel: 'Diesel', hp: 190, kmL: 21.0 },
-        { make: 'Volkswagen', model: 'Passat', variant: '1.5 TSI Elegance DSG', fuel: 'Benzin', hp: 150, kmL: 18.5 },
-      ];
-      const selected = brands[hash % brands.length];
-      const year = 2018 + (hash % 6); // 2018-2023
-
-      return {
-        found: true,
-        registrationNumber: type === 'registration' ? val : `AB${hash.toString().slice(-5)}`,
-        make: selected.make,
-        model: selected.model,
-        variant: selected.variant,
-        year,
-        firstRegistrationDate: `${year}-05-15`,
-        fuelType: selected.fuel,
-        fuelConsumptionKmPerL: selected.kmL,
-        horsepower: selected.hp,
-        vin: type === 'vin' ? val : `WBA${val}X987654321`,
-        color: ['Hvid', 'Sort Metallak', 'Koksgrå Metallak', 'Blå Metallak'][hash % 4],
-        bodyType: 'Stationcar',
-        mileage: 35000 + (hash % 120) * 1000,
-        lastInspectionDate: '2024-10-12',
-        lastInspectionResult: 'Godkendt',
-        nextInspectionDate: '2026-10-12',
-        status: 'Aktiv / Registreret i Motorregistret',
-        curbWeight: 1420,
-        totalWeight: 1980,
-      };
-    }
-
+    // Hvis bilen ikke er i presets eller lager, returner ikke fundet
     return {
       found: false,
-      message: 'Bilen blev ikke fundet i Motorregistret. Tjek nummerpladen eller kontakt os direkte.',
+      message: 'Bilen blev ikke fundet i Motorregistret. Tjek nummerpladen eller indtast bilens oplysninger manuelt.',
     };
   },
 
