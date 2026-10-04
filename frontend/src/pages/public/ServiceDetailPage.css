@@ -1,0 +1,218 @@
+/* Service Detail Page Styles */
+.service-detail-page {
+  background: var(--color-bg);
+  padding-bottom: var(--spacing-16);
+  min-height: 100vh;
+}
+
+.service-detail-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-4) 0;
+  margin-bottom: var(--spacing-4);
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.service-detail-nav .breadcrumb {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .service-detail-nav .breadcrumb {
+    display: block;
+  }
+}
+
+.service-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-8);
+}
+
+@media (min-width: 1024px) {
+  .service-detail-grid {
+    grid-template-columns: 1.8fr 1fr;
+    align-items: start;
+  }
+}
+
+.service-detail-body {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-8);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.service-detail-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.service-detail-hero-text {
+  font-size: 1.15rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-8);
+  padding-bottom: var(--spacing-6);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.service-main-text h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.service-main-text p {
+  line-height: 1.7;
+  color: #475569;
+  font-size: 1rem;
+}
+
+.service-checklist-box {
+  background: var(--color-grey-100);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-6);
+  margin: var(--spacing-8) 0;
+}
+
+.service-checklist-box h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-4);
+}
+
+.checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.checklist li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+.check-icon {
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+/* FAQ section */
+.service-faq-section {
+  margin-top: var(--spacing-10);
+  padding-top: var(--spacing-8);
+  border-top: 1px solid var(--color-border);
+}
+
+.service-faq-section h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-6);
+}
+
+.service-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+
+.service-faq-card {
+  background: var(--color-grey-100);
+  padding: var(--spacing-5);
+  border-radius: var(--radius-md);
+}
+
+.service-faq-card h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.service-faq-card p {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Sidebar */
+.service-detail-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-6);
+}
+
+.booking-cta-card,
+.sidebar-hours-card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-6);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.price-tag {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing-6);
+}
+
+.price-label {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.price-value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--color-accent);
+}
+
+.quick-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: var(--spacing-6);
+  padding-bottom: var(--spacing-6);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.sidebar-hours-card h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-4);
+}
+
+.hours-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.hour-row {
+  display: flex;
+  justify-content: space-between;
+}

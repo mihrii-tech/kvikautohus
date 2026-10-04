@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+bin/
+obj/
+
+# Build outputs
+dist/
+dist-ssr/
+publish/
+
+# Environment and secrets
+.env
+.env.local
+*.user
+
+# Logs and DB
+*.log
+*.sqlite
+appsettings.Production.json
+
+# OS and IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp

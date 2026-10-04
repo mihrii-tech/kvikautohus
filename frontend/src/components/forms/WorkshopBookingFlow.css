@@ -1,0 +1,893 @@
+/* ═══════════════════════════════════════════════
+   WORKSHOP BOOKING FLOW – Autohus Kvik
+   Lys, professionel og brugervenlig booking boks
+   ═══════════════════════════════════════════════ */
+
+.booking-flow-card {
+  background: #ffffff;
+  border-radius: var(--radius-xl, 16px);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 12px 36px -4px rgba(15, 23, 42, 0.1), 0 4px 12px rgba(15, 23, 42, 0.05);
+  padding: 24px;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  color: #1e293b;
+  position: relative;
+  z-index: 2;
+  transition: box-shadow var(--transition-normal);
+}
+
+@media (min-width: 640px) {
+  .booking-flow-card {
+    padding: 32px;
+  }
+}
+
+/* ─── Step Indicator Bar ─── */
+.booking-steps-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f5f9;
+  gap: 8px;
+}
+
+.booking-step-tab {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: var(--radius-md, 8px);
+  transition: all var(--transition-fast);
+  color: #94a3b8;
+  font-family: inherit;
+  font-size: var(--text-sm, 0.875rem);
+  font-weight: 600;
+}
+
+.booking-step-tab:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.step-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  color: #64748b;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  transition: all var(--transition-fast);
+}
+
+.booking-step-tab.active {
+  color: #0f172a;
+}
+
+.booking-step-tab.active .step-num {
+  background: var(--color-accent, #E8420F);
+  color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(232, 66, 15, 0.2);
+}
+
+.booking-step-tab.completed .step-num {
+  background: #10b981;
+  color: #ffffff;
+}
+
+.step-connector {
+  flex: 1;
+  height: 2px;
+  background: #e2e8f0;
+  border-radius: 2px;
+  transition: background var(--transition-normal);
+}
+
+.step-connector.active {
+  background: #10b981;
+}
+
+/* ─── Flow Header ─── */
+.flow-header {
+  margin-bottom: 20px;
+}
+
+.flow-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-accent, #E8420F);
+  background: var(--color-accent-light, #FEF0EC);
+  padding: 3px 10px;
+  border-radius: 9999px;
+  margin-bottom: 8px;
+}
+
+.flow-title {
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin-bottom: 6px;
+}
+
+.flow-subtitle {
+  font-size: 0.9375rem;
+  color: #64748b;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ─── Dansk Nummerplade Styling ─── */
+.license-plate-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.plate-input-wrapper {
+  display: flex;
+  align-items: stretch;
+  background: #ffffff;
+  border: 2px solid #0f172a;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  height: 56px;
+  overflow: hidden;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.plate-input-wrapper:focus-within {
+  border-color: var(--color-accent, #E8420F);
+  box-shadow: 0 0 0 4px rgba(232, 66, 15, 0.18);
+}
+
+.plate-eu-strip {
+  width: 48px;
+  background: #003399;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #ffffff;
+  padding: 4px;
+}
+
+.plate-eu-stars {
+  font-size: 11px;
+  line-height: 1;
+}
+
+.plate-eu-dk {
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  margin-top: 2px;
+}
+
+.plate-input-field {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 0 16px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: #0f172a;
+  text-transform: uppercase;
+  outline: none;
+  width: 100%;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.plate-input-field::placeholder {
+  color: #cbd5e1;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.plate-clear-btn {
+  background: none;
+  border: none;
+  color: #94a3b8;
+  font-size: 16px;
+  padding: 0 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--transition-fast);
+}
+
+.plate-clear-btn:hover {
+  color: #0f172a;
+}
+
+/* Knapper under nummerplade */
+.plate-action-buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+@media (min-width: 480px) {
+  .plate-action-buttons {
+    grid-template-columns: 1fr 1.3fr;
+  }
+}
+
+.plate-action-btn {
+  height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-radius: var(--radius-lg, 12px);
+  cursor: pointer;
+  border: none;
+  transition: all var(--transition-fast);
+}
+
+.btn-secondary {
+  background: #f1f5f9;
+  color: #1e293b;
+  border: 1px solid #cbd5e1;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.btn-primary {
+  background: var(--color-accent, #E8420F);
+  color: #ffffff;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--color-accent-hover, #C93608);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(232, 66, 15, 0.35);
+}
+
+.plate-action-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.btn-loading {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ─── Fundet bil banner ─── */
+.lookup-success-banner {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: var(--radius-lg, 12px);
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.lookup-success-icon {
+  flex-shrink: 0;
+}
+
+.text-success {
+  color: #16a34a;
+}
+
+.lookup-success-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.car-badge-title {
+  font-size: 0.9375rem;
+  color: #14532d;
+  font-weight: 700;
+}
+
+.car-badge-meta {
+  font-size: 0.8125rem;
+  color: #166534;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.inspection-status {
+  font-weight: 600;
+}
+
+/* Detaljeret bilspecifikation */
+.lookup-detailed-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-lg, 12px);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.detailed-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-label {
+  font-size: 0.75rem;
+  color: #64748b;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.detail-value {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 2px;
+}
+
+.detail-cta-bar {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 12px;
+}
+
+/* Fejl / Information boks */
+.lookup-notice-box {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: var(--radius-lg, 12px);
+  padding: 12px 14px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.notice-icon {
+  color: #d97706;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.notice-text {
+  font-size: 0.875rem;
+  color: #92400e;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--color-accent, #E8420F);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 6px;
+  display: inline-block;
+  font-family: inherit;
+}
+
+/* Manuel bil information */
+.manual-car-inputs {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-lg, 12px);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.form-group-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 480px) {
+  .form-group-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ─── Hurtige valg (pills) ─── */
+.quick-service-section {
+  border-top: 1px solid #f1f5f9;
+  padding-top: 16px;
+}
+
+.quick-service-title {
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+}
+
+.quick-service-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.quick-pill {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 9999px;
+  padding: 8px 14px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #334155;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all var(--transition-fast);
+  font-family: inherit;
+}
+
+.quick-pill:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  color: #0f172a;
+}
+
+.quick-pill.active {
+  background: var(--color-accent-light, #FEF0EC);
+  border-color: var(--color-accent, #E8420F);
+  color: var(--color-accent, #E8420F);
+  font-weight: 700;
+}
+
+.pill-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #94a3b8;
+}
+
+.quick-pill.active .pill-dot {
+  background: var(--color-accent, #E8420F);
+}
+
+/* ═══════════ STEP 2: OPGAVE VALG ═══════════ */
+.service-options-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 480px) {
+  .service-options-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.service-option-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px;
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: var(--radius-lg, 12px);
+  cursor: pointer;
+  text-align: left;
+  transition: all var(--transition-fast);
+  font-family: inherit;
+}
+
+.service-option-card:hover {
+  background: #ffffff;
+  border-color: #cbd5e1;
+  transform: translateY(-1px);
+}
+
+.service-option-card.selected {
+  background: #ffffff;
+  border-color: var(--color-accent, #E8420F);
+  box-shadow: 0 4px 12px rgba(232, 66, 15, 0.12);
+}
+
+.service-check-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+  transition: all var(--transition-fast);
+}
+
+.service-option-card.selected .service-check-circle {
+  border-color: var(--color-accent, #E8420F);
+  background: var(--color-accent, #E8420F);
+  color: #ffffff;
+}
+
+.service-option-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-name {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.service-desc {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.task-desc-wrap {
+  margin-bottom: 24px;
+}
+
+.field-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 6px;
+}
+
+.req {
+  color: var(--color-accent, #E8420F);
+}
+
+.form-textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: var(--radius-md, 8px);
+  font-family: inherit;
+  font-size: 0.9375rem;
+  color: #0f172a;
+  outline: none;
+  resize: vertical;
+  min-height: 80px;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.form-textarea:focus {
+  border-color: var(--color-accent, #E8420F);
+  box-shadow: 0 0 0 3px rgba(232, 66, 15, 0.15);
+}
+
+/* ═══════════ STEP 3: KONTAKT FORMULAR ═══════════ */
+.contact-form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 520px) {
+  .contact-form-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .form-field.full-width {
+    grid-column: span 2;
+  }
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.field-icon {
+  position: absolute;
+  left: 14px;
+  color: #94a3b8;
+  pointer-events: none;
+}
+
+.form-input {
+  width: 100%;
+  height: 48px;
+  padding: 0 14px 0 42px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: var(--radius-md, 8px);
+  font-family: inherit;
+  font-size: 0.9375rem;
+  color: #0f172a;
+  outline: none;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.form-input:focus {
+  border-color: var(--color-accent, #E8420F);
+  box-shadow: 0 0 0 3px rgba(232, 66, 15, 0.15);
+}
+
+/* Tidspunkter (Morgen / Formiddag / Eftermiddag) */
+.time-slots-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.time-slot-btn {
+  background: #f8fafc;
+  border: 1.5px solid #cbd5e1;
+  border-radius: var(--radius-md, 8px);
+  padding: 8px 4px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+  font-family: inherit;
+}
+
+.time-slot-btn:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.time-slot-btn.active {
+  background: var(--color-accent-light, #FEF0EC);
+  border-color: var(--color-accent, #E8420F);
+  color: var(--color-accent, #E8420F);
+}
+
+.slot-title {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.slot-hours {
+  font-size: 0.6875rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.time-slot-btn.active .slot-hours {
+  color: var(--color-accent, #E8420F);
+}
+
+.mini-summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  color: #64748b;
+  background: #f8fafc;
+  padding: 10px 14px;
+  border-radius: var(--radius-md, 8px);
+  margin-bottom: 20px;
+}
+
+.mini-summary strong {
+  color: #0f172a;
+}
+
+.form-error-banner {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #dc2626;
+  border-radius: var(--radius-md, 8px);
+  padding: 10px 14px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.privacy-microtext {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-align: center;
+  margin-top: 14px;
+  line-height: 1.4;
+}
+
+/* ─── Navigation Buttons (Trin 2 & Trin 3) ─── */
+.step-navigation-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 12px;
+}
+
+.step-navigation-buttons .btn {
+  height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-radius: var(--radius-lg, 12px);
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+.submit-booking-btn {
+  background: var(--color-accent, #E8420F);
+  color: #ffffff;
+}
+
+.submit-booking-btn:hover:not(:disabled) {
+  background: var(--color-accent-hover, #C93608);
+  box-shadow: 0 4px 16px rgba(232, 66, 15, 0.4);
+}
+
+/* ═══════════ SUCCESS VIEW ═══════════ */
+.booking-success-view {
+  text-align: center;
+  padding: 12px 0;
+}
+
+.success-icon-wrap {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: #f0fdf4;
+  border: 2px solid #bbf7d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+}
+
+.success-icon {
+  color: #16a34a;
+}
+
+.success-title {
+  font-size: 1.625rem;
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.success-subtitle {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.5;
+  max-width: 440px;
+  margin: 0 auto 24px;
+}
+
+.booking-summary-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-lg, 12px);
+  padding: 16px 20px;
+  text-align: left;
+  max-width: 480px;
+  margin: 0 auto 28px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.875rem;
+}
+
+.summary-row:last-child {
+  border-bottom: none;
+}
+
+.summary-row.highlight {
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e2e8f0;
+  font-weight: 700;
+}
+
+.summary-label {
+  color: #64748b;
+}
+
+.summary-val {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.ref-badge {
+  background: var(--color-accent-light, #FEF0EC);
+  color: var(--color-accent, #E8420F);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.plate-badge {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.success-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+@media (min-width: 480px) {
+  .success-actions {
+    flex-direction: row;
+  }
+  .success-actions .btn {
+    flex: 1;
+  }
+}

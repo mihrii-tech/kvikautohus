@@ -1,0 +1,247 @@
+/* Workshop Page Styles */
+.workshop-page {
+  background: var(--color-bg);
+  padding-bottom: var(--spacing-16);
+}
+
+.workshop-hero {
+  position: relative;
+  overflow: hidden;
+  color: var(--color-white);
+  padding: var(--spacing-16) 0;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+}
+
+.workshop-hero__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.workshop-hero__bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  display: block;
+}
+
+.workshop-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(15, 23, 42, 0.94) 0%,
+    rgba(15, 23, 42, 0.85) 55%,
+    rgba(15, 23, 42, 0.5) 100%
+  );
+}
+
+.workshop-hero__inner {
+  max-width: 700px;
+}
+
+.workshop-hero__title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-white);
+}
+
+.workshop-hero__sub {
+  color: #94a3b8;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: var(--spacing-8);
+}
+
+.workshop-hero__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Trust bar */
+.workshop-trust-bar {
+  background: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--spacing-6) 0;
+}
+
+.trust-bar-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+  .trust-bar-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.trust-bar-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bar-icon {
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.trust-bar-item strong {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+.trust-bar-item span {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+/* Workshop Cards */
+.workshop-services-section {
+  padding-top: var(--spacing-12);
+}
+
+.workshop-card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-6);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.workshop-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--spacing-4);
+}
+
+.workshop-card__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: rgba(239, 68, 68, 0.1);
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-badge {
+  background: var(--color-grey-100);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-text);
+  padding: 0.3rem 0.6rem;
+  border-radius: var(--radius-full);
+}
+
+.workshop-card__title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.workshop-card__desc {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-bottom: var(--spacing-6);
+  flex: 1;
+}
+
+.workshop-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--spacing-4);
+  border-top: 1px solid var(--color-border);
+}
+
+.service-read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+/* Advantage Boxes */
+.advantage-box {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-6);
+  border: 1px solid var(--color-border);
+}
+
+.adv-number {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+}
+
+.advantage-box h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.advantage-box p {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* CTA Card */
+.workshop-cta-card {
+  margin-top: var(--spacing-12);
+  background: linear-gradient(135deg, var(--color-dark) 0%, #1e293b 100%);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-8);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+  .workshop-cta-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.cta-content h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+  color: var(--color-white);
+}
+
+.cta-content p {
+  color: #94a3b8;
+  margin: 0;
+  font-size: 0.95rem;
+}
