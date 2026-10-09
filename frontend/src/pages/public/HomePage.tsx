@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import Seo from '@/components/ui/Seo';
 import { useQuery } from '@tanstack/react-query';
 import {
   Car, Wrench, Phone, MapPin, Clock, ShieldCheck, CheckCircle2,
@@ -76,22 +76,18 @@ export default function HomePage() {
     heroRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
-  const titleSuffix = settings.seo_title_suffix ?? '| Autohus Kvik – Hvidovre';
-  const description = settings.seo_default_description ?? 'Book værkstedstid online hos Autohus Kvik i Hvidovre. Indtast nummerplade, vælg service og få hurtig betjening.';
+  const description = 'Autohus Kvik i Hvidovre: autoværksted for alle bilmærker og brugte biler til salg. Book værkstedstid online med din nummerplade – service, syn, bremser, dæk og reparation.';
 
   const companyPhone = settings.company_phone ?? '+45 50 29 08 74';
   const cleanPhone = companyPhone.replace(/\s/g, '');
 
   return (
     <div className="home-page-light">
-      <Helmet>
-        <title>Autohus Kvik – Værksted & Bilsalg i Hvidovre {titleSuffix}</title>
-        <meta name="description" content={description} />
-        <meta property="og:title" content="Autohus Kvik – Book værkstedstid online" />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href={`${window.location.origin}/`} />
-      </Helmet>
+      <Seo
+        title="Autohus Kvik – Autoværksted & brugte biler i Hvidovre"
+        description={description}
+        path="/"
+      />
 
       {/* ═══════════════════════════════════════════════
           1. HERO MED BOOKING + NUMMERPLADE (LYS & REN)

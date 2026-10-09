@@ -464,7 +464,7 @@ export default function VehicleLookupPage() {
 
             {/* CTA-knapper */}
             <div className="lookup-cta">
-              <Link to="/book-vaerksted" className="lookup-cta__btn lookup-cta__btn--primary" id="cta-book-workshop">
+              <Link to={`/book-vaerksted?plate=${encodeURIComponent(result.registrationNumber ?? '')}`} className="lookup-cta__btn lookup-cta__btn--primary" id="cta-book-workshop">
                 <Wrench size={20} />
                 Book værkstedstid
               </Link>

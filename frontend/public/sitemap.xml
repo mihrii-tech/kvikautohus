@@ -1,68 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://autohusetkvik.dk/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://autohusetkvik.dk/biler</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://autohusetkvik.dk/saelg-eller-byt</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://autohusetkvik.dk/vaerksted</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://autohusetkvik.dk/vaerksted/serviceeftersyn</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://autohusetkvik.dk/vaerksted/klargoering-til-syn</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://autohusetkvik.dk/vaerksted/bremseservice</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://autohusetkvik.dk/book-vaerksted</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://autohusetkvik.dk/finansiering</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://autohusetkvik.dk/om-os</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://autohusetkvik.dk/kontakt</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://autohusetkvik.dk/privatlivspolitik</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://autohusetkvik.dk/cookiepolitik</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://autohusetkvik.dk/</loc><lastmod>2026-10-08</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://autohusetkvik.dk/biler</loc><lastmod>2026-10-08</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://autohusetkvik.dk/book-vaerksted</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://autohusetkvik.dk/vaerksted</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://autohusetkvik.dk/saelg-eller-byt</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://autohusetkvik.dk/tjek-bil</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://autohusetkvik.dk/vaerksted/serviceeftersyn</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://autohusetkvik.dk/vaerksted/reparation-fejlfinding</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://autohusetkvik.dk/vaerksted/daekskifte</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://autohusetkvik.dk/vaerksted/synstjek</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://autohusetkvik.dk/vaerksted/rudeskift</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://autohusetkvik.dk/vaerksted/autohjaelp</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://autohusetkvik.dk/om-os</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://autohusetkvik.dk/kontakt</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://autohusetkvik.dk/privatlivspolitik</loc><lastmod>2026-10-08</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://autohusetkvik.dk/cookiepolitik</loc><lastmod>2026-10-08</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://autohusetkvik.dk/biler/kia-picanto-1-0-attraction-5d-2016-12</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><image:image><image:loc>https://autohusetkvik.dk/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/01.jpg</image:loc><image:title>Kia Picanto 1,0 Attraction 5D 2016</image:title></image:image></url>
+  <url><loc>https://autohusetkvik.dk/biler/skoda-fabia-1-2-6v-classic-5d-2008-11</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><image:image><image:loc>https://autohusetkvik.dk/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/01.jpg</image:loc><image:title>Skoda Fabia 1,2 6V Classic 5D 2008</image:title></image:image></url>
+  <url><loc>https://autohusetkvik.dk/biler/peugeot-208-1-6-e-hdi-92-active-5d-2012-10</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><image:image><image:loc>https://autohusetkvik.dk/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/01.jpg</image:loc><image:title>Peugeot 208 1,6 e-HDi 92 Active 5D 2012</image:title></image:image></url>
+  <url><loc>https://autohusetkvik.dk/biler/fiat-500-1-2-pop-3d-2008-9</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><image:image><image:loc>https://autohusetkvik.dk/uploads/cars/fiat-500-1-2-pop-3d-2008-9/01.jpg</image:loc><image:title>Fiat 500 1,2 Pop 3D 2008</image:title></image:image></url>
+  <url><loc>https://autohusetkvik.dk/biler/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><image:image><image:loc>https://autohusetkvik.dk/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/01.jpg</image:loc><image:title>Land Rover Range Rover Sport 2,7 TDV6 SE aut. 5D 2005</image:title></image:image></url>
+  <url><loc>https://autohusetkvik.dk/biler/suzuki-alto-1-0-comfort-5d-2009-7</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><image:image><image:loc>https://autohusetkvik.dk/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/01.jpg</image:loc><image:title>Suzuki Alto 1,0 Comfort 5D 2009</image:title></image:image></url>
+  <url><loc>https://autohusetkvik.dk/biler/bmw-420d-2-0-gran-coup-aut-5d-2016-6</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><image:image><image:loc>https://autohusetkvik.dk/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/01.jpg</image:loc><image:title>BMW 420d 2,0 Gran Coupé aut. 5D 2016</image:title></image:image></url>
+  <url><loc>https://autohusetkvik.dk/biler/citroen-c1-1-0i-attraction-5d-2012-5</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><image:image><image:loc>https://autohusetkvik.dk/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/01.jpg</image:loc><image:title>Citroen C1 1,0i Attraction 5D 2012</image:title></image:image></url>
+  <url><loc>https://autohusetkvik.dk/biler/nissan-micra-1-2-acenta-5d-2011-4</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><image:image><image:loc>https://autohusetkvik.dk/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/01.jpg</image:loc><image:title>Nissan Micra 1,2 Acenta 5D 2011</image:title></image:image></url>
+  <url><loc>https://autohusetkvik.dk/biler/suzuki-alto-1-0-comfort-5d-2010-3</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><image:image><image:loc>https://autohusetkvik.dk/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/01.jpg</image:loc><image:title>Suzuki Alto 1,0 Comfort 5D 2010</image:title></image:image></url>
+  <url><loc>https://autohusetkvik.dk/biler/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><image:image><image:loc>https://autohusetkvik.dk/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/01.jpg</image:loc><image:title>Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014</image:title></image:image></url>
+  <url><loc>https://autohusetkvik.dk/biler/volvo-s40-1-6-4d-2003-1</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><image:image><image:loc>https://autohusetkvik.dk/uploads/cars/volvo-s40-1-6-4d-2003-1/01.jpg</image:loc><image:title>Volvo S40 1,6 4D 2003</image:title></image:image></url>
 </urlset>

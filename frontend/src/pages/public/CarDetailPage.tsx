@@ -1,6 +1,6 @@
 import { useState, useId } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import Seo from '@/components/ui/Seo';
 import { useQuery, useMutation } from '@tanstack/react-query';
 import {
   Calendar, Gauge, Fuel, Settings2, Shield, Phone, Mail,
@@ -171,32 +171,58 @@ export default function CarDetailPage() {
     : 0;
 
   const getImgSrc = (img?: CarImage | null): string => {
-    if (!img) return 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80';
-    return img.filePath || img.webPPath || img.thumbnailPath || img.url || 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80';
+    if (!img) return '/images/dealership.jpg';
+    return img.filePath || img.webPPath || img.thumbnailPath || img.url || '/images/dealership.jpg';
   };
 
   const images: CarImage[] = car.images && car.images.length > 0
     ? car.images
-    : [{ id: 0, url: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80', isPrimary: true, sortOrder: 0 }];
+    : [{ id: 0, url: '/images/dealership.jpg', isPrimary: true, sortOrder: 0 }];
 
   const currentImage = images[activeImageIndex] || images[0];
 
-  const titleSuffix = settings.seo_title_suffix || '| Autohus Kvik';
-  const pageTitle = `${car.make} ${car.model} ${car.variant || ''} (${car.year}) ${titleSuffix}`;
-  const carDescription = car.description || `Køb brugt ${car.make} ${car.model} ${car.year} hos Autohus Kvik i Hvidovre. Flot stand, km ${car.mileage.toLocaleString('da-DK')}. Finansiering tilbydes.`;
+  const rawDesc = (car.description || '')
+    .replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const fallbackDesc = `Brugt ${car.make} ${car.model} ${car.year}${car.mileage ? `, ${car.mileage.toLocaleString('da-DK')} km` : ''} til ${car.price.toLocaleString('da-DK')} kr. hos Autohus Kvik i Hvidovre. Byttebil velkommen.`;
+  const metaDescription = (rawDesc.length > 40 ? rawDesc : fallbackDesc).slice(0, 155).replace(/\s\S*$/, '') + (rawDesc.length > 155 ? '…' : '');
 
   const descParagraphs = cleanDescriptionText(car.description);
   const filteredRelatedCars = ((relatedData as any)?.cars || []).filter((c: any) => c.id !== car.id);
 
   return (
     <div className="car-detail-page">
-      <Helmet>
-        <title>{pageTitle}</title>
-        <meta name="description" content={carDescription} />
-        <meta property="og:title" content={`${car.make} ${car.model} - Autohus Kvik`} />
-        <meta property="og:description" content={carDescription} />
-        <meta property="og:image" content={getImgSrc(currentImage)} />
-      </Helmet>
+      <Seo
+        title={`${car.make} ${car.model} ${car.variant || ''} ${car.year} – ${car.price.toLocaleString('da-DK')} kr.`.replace(/\s+/g, ' ')}
+        description={metaDescription}
+        path={`/biler/${car.slug}`}
+        image={getImgSrc(images[0])}
+        type="product"
+        jsonLd={{
+          '@context': 'https://schema.org',
+          '@type': 'Car',
+          name: `${car.make} ${car.model} ${car.variant || ''}`.trim(),
+          brand: { '@type': 'Brand', name: car.make },
+          model: car.model,
+          vehicleModelDate: String(car.year),
+          bodyType: car.bodyType,
+          fuelType: car.fuelType,
+          vehicleTransmission: car.transmission,
+          mileageFromOdometer: car.mileage ? { '@type': 'QuantitativeValue', value: car.mileage, unitCode: 'KMT' } : undefined,
+          image: images.map((i) => getImgSrc(i)).slice(0, 6).map((s) => (s.startsWith('http') ? s : `https://autohusetkvik.dk${s}`)),
+          description: metaDescription,
+          itemCondition: 'https://schema.org/UsedCondition',
+          offers: {
+            '@type': 'Offer',
+            price: car.price,
+            priceCurrency: 'DKK',
+            availability: car.status === 'sold' ? 'https://schema.org/SoldOut' : 'https://schema.org/InStock',
+            url: `https://autohusetkvik.dk/biler/${car.slug}`,
+            seller: { '@id': 'https://autohusetkvik.dk/#business' },
+          },
+        }}
+      />
 
       {/* Breadcrumb & Navigation */}
       <div className="car-detail-breadcrumb container">

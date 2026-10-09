@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { Shield, Lock, Mail, AlertCircle } from 'lucide-react';
+import { Shield, Lock, Mail, AlertCircle, Sparkles } from 'lucide-react';
+
+const DEMO_EMAIL = 'demo@autohusetkvik.dk';
+const DEMO_PASSWORD = 'demo1234';
 import { useAuth } from '@/contexts/AuthContext';
 
 export default function LoginPage() {
@@ -22,6 +25,21 @@ export default function LoginPage() {
       navigate('/admin');
     } catch (err: any) {
       setError(err?.response?.data?.message || 'Ugyldig e-mail eller adgangskode.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const handleDemoLogin = async () => {
+    setEmail(DEMO_EMAIL);
+    setPassword(DEMO_PASSWORD);
+    setError('');
+    setIsSubmitting(true);
+    try {
+      await login(DEMO_EMAIL, DEMO_PASSWORD);
+      navigate('/admin');
+    } catch {
+      setError('Demo-login fejlede. Prøv igen.');
     } finally {
       setIsSubmitting(false);
     }
@@ -68,6 +86,43 @@ export default function LoginPage() {
           <p style={{ fontSize: '0.875rem', color: '#64748b', margin: 0 }}>
             Log ind for at administrere biler, henvendelser og indhold
           </p>
+        </div>
+
+        <div style={{
+          background: 'linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%)',
+          border: '1px solid #bfdbfe',
+          borderRadius: 'var(--radius-md)',
+          padding: '1rem',
+          marginBottom: '1.5rem',
+          fontSize: '0.85rem',
+          color: '#1e3a8a'
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', fontWeight: 700, marginBottom: '0.5rem' }}>
+            <Sparkles size={16} /> Demo-adgang til test
+          </div>
+          <div>E-mail: <strong>{DEMO_EMAIL}</strong></div>
+          <div style={{ marginBottom: '0.75rem' }}>Adgangskode: <strong>{DEMO_PASSWORD}</strong></div>
+          <button
+            id="demo-login-button"
+            type="button"
+            onClick={handleDemoLogin}
+            disabled={isSubmitting}
+            style={{
+              width: '100%',
+              padding: '0.6rem',
+              background: '#2563eb',
+              color: '#fff',
+              border: 'none',
+              borderRadius: 'var(--radius-md)',
+              fontWeight: 700,
+              cursor: 'pointer'
+            }}
+          >
+            Log ind som demo med ét klik
+          </button>
+          <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', color: '#475569' }}>
+            Ændringer gemmes kun i din egen browser.
+          </div>
         </div>
 
         {error && (

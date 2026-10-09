@@ -7,7 +7,8 @@ import type {
 } from '@/types';
 
 // Hjælper til at afgøre om vi kører mod et rigtigt backend-API
-const hasBackendUrl = Boolean(import.meta.env.VITE_API_URL);
+// I udvikling proxyer Vite /api til .NET-backend'en, så vi bruger altid det rigtige API lokalt.
+const hasBackendUrl = Boolean(import.meta.env.VITE_API_URL) || import.meta.env.DEV;
 
 // ─── Offentlige Biler ───
 export const carsService = {

@@ -17,7 +17,6 @@ const TradeInPage      = lazy(() => import('@/pages/public/TradeInPage'));
 const WorkshopPage     = lazy(() => import('@/pages/public/WorkshopPage'));
 const ServiceDetailPage = lazy(() => import('@/pages/public/ServiceDetailPage'));
 const BookingPage      = lazy(() => import('@/pages/public/BookingPage'));
-const FinancingPage    = lazy(() => import('@/pages/public/FinancingPage'));
 const AboutPage        = lazy(() => import('@/pages/public/AboutPage'));
 const ContactPage      = lazy(() => import('@/pages/public/ContactPage'));
 const PrivacyPage      = lazy(() => import('@/pages/public/PrivacyPage'));
@@ -73,7 +72,7 @@ export default function App() {
                     <Route path="/vaerksted" element={<WorkshopPage />} />
                     <Route path="/vaerksted/:slug" element={<ServiceDetailPage />} />
                     <Route path="/book-vaerksted" element={<BookingPage />} />
-                    <Route path="/finansiering" element={<FinancingPage />} />
+                    <Route path="/finansiering" element={<Navigate to="/biler" replace />} />
                     <Route path="/om-os" element={<AboutPage />} />
                     <Route path="/kontakt" element={<ContactPage />} />
                     <Route path="/privatlivspolitik" element={<PrivacyPage />} />

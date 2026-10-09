@@ -1,0 +1,1796 @@
+[
+ {
+  "id": 30,
+  "title": "Kia Picanto",
+  "slug": "kia-picanto-1-0-attraction-5d-2016-12",
+  "make": "Kia",
+  "model": "Picanto",
+  "variant": "1,0 Attraction  5D",
+  "year": 2016,
+  "bodyType": "Hatchback 5-dørs",
+  "fuelType": "Benzin",
+  "transmission": "Manuelt",
+  "mileage": 147000,
+  "horsepower": 69,
+  "numDoors": 5,
+  "driveType": "Forhjulstræk",
+  "price": 39900.0,
+  "status": "for_sale",
+  "isFeatured": false,
+  "isNew": false,
+  "badge": "BRUGT BIL",
+  "hasWarranty": true,
+  "warrantyDetails": "Mulighed for 12/24 mdr. garanti og nysynet levering efter aftale.",
+  "isPrepared": true,
+  "hasServiceHistory": true,
+  "isInspected": true,
+  "description": "Kia Picanto – 2016 • Økonomisk og velholdt med bakkamera!\n\nFlot og økonomisk Kia Picanto som kører rigtig godt. Perfekt som bybil, pendlerbil eller førstegangsbil med lave driftsomkostninger og god komfort.\n\n✅ Årgang: 2016\n✅ Km: 147.000\n✅ nysynet og nyserviceret\n✅ Lav ejerafgift\n✅ 2 nøgler\n✅ Finansiering med eller uden udbetaling\n✅ Vi tager gerne din gamle bil i bytte\n✅ Ny kobling \nUdstyr bl.a.:\nBakkamera, aircondition, el-ruder, fjernbetjent centrallås, sædevarme, kørecomputer, Isofix, AUX/USB, Radio/CD, servostyring, ESP, antispin, startspærre og airbags.\n\nEn driftssikker og billig bil i drift – klar til mange flere kilometer.\n\n📍 Autohuset Kvik\nGammel Køge Landevej 477, 2650 Hvidovre\n📞 +45 50290874\n\nÅbningstider:\nMan-Tors: 10:00 - 17:00\nFre: 10:00 - 15:00\nLør: Lukket\nSøn: 12:00 - 16:00",
+  "createdAt": "2026-10-01T10:06:35.592265",
+  "images": [
+   {
+    "id": 295,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/01.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/01.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/01.jpg",
+    "sortOrder": 1,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 1",
+    "isPrimary": true
+   },
+   {
+    "id": 296,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/02.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/02.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/02.jpg",
+    "sortOrder": 2,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 2",
+    "isPrimary": false
+   },
+   {
+    "id": 297,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/03.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/03.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/03.jpg",
+    "sortOrder": 3,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 3",
+    "isPrimary": false
+   },
+   {
+    "id": 298,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/04.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/04.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/04.jpg",
+    "sortOrder": 4,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 4",
+    "isPrimary": false
+   },
+   {
+    "id": 299,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/05.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/05.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/05.jpg",
+    "sortOrder": 5,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 5",
+    "isPrimary": false
+   },
+   {
+    "id": 300,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/06.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/06.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/06.jpg",
+    "sortOrder": 6,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 6",
+    "isPrimary": false
+   },
+   {
+    "id": 301,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/07.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/07.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/07.jpg",
+    "sortOrder": 7,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 7",
+    "isPrimary": false
+   },
+   {
+    "id": 302,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/08.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/08.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/08.jpg",
+    "sortOrder": 8,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 8",
+    "isPrimary": false
+   },
+   {
+    "id": 303,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/09.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/09.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/09.jpg",
+    "sortOrder": 9,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 9",
+    "isPrimary": false
+   },
+   {
+    "id": 304,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/10.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/10.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/10.jpg",
+    "sortOrder": 10,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 10",
+    "isPrimary": false
+   },
+   {
+    "id": 305,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/11.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/11.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/11.jpg",
+    "sortOrder": 11,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 11",
+    "isPrimary": false
+   },
+   {
+    "id": 306,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/12.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/12.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/12.jpg",
+    "sortOrder": 12,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 12",
+    "isPrimary": false
+   },
+   {
+    "id": 307,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/13.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/13.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/13.jpg",
+    "sortOrder": 13,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 13",
+    "isPrimary": false
+   },
+   {
+    "id": 308,
+    "filePath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/14.jpg",
+    "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/14.jpg",
+    "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/14.jpg",
+    "sortOrder": 14,
+    "altText": "Kia Picanto 1,0 Attraction 5D 2016 – billede 14",
+    "isPrimary": false
+   }
+  ],
+  "features": [],
+  "relatedCars": [],
+  "coverImage": {
+   "thumbnailPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/01.jpg",
+   "webPPath": "/uploads/cars/kia-picanto-1-0-attraction-5d-2016-12/01.jpg",
+   "altText": "Kia Picanto 1,0 Attraction 5D 2016"
+  }
+ },
+ {
+  "id": 29,
+  "title": "Skoda Fabia",
+  "slug": "skoda-fabia-1-2-6v-classic-5d-2008-11",
+  "make": "Skoda",
+  "model": "Fabia",
+  "variant": "1,2 6V Classic  5D",
+  "year": 2008,
+  "bodyType": "Hatchback 5-dørs",
+  "fuelType": "Benzin",
+  "transmission": "Manuelt",
+  "mileage": 161000,
+  "horsepower": 60,
+  "numDoors": 5,
+  "driveType": "Forhjulstræk",
+  "price": 16900.0,
+  "status": "for_sale",
+  "isFeatured": false,
+  "isNew": false,
+  "badge": "BRUGT BIL",
+  "hasWarranty": true,
+  "warrantyDetails": "Mulighed for 12/24 mdr. garanti og nysynet levering efter aftale.",
+  "isPrepared": true,
+  "hasServiceHistory": true,
+  "isInspected": true,
+  "description": "Skoda Fabia – 2008 • Praktisk og økonomisk hverdagsbil!\n\nVelkørende og rummelig Skoda Fabia som starter og kører godt. En driftssikker bil med god plads og lave driftsomkostninger – perfekt som pendlerbil, førstegangsbil eller ekstra bil i familien.\n\n✅ Årgang: 2008\n✅ Km: 161.000\n✅ Leveres nysynet og nyserviceret\n✅ Billig i drift og ejerafgift\n✅ God komfort og masser af plads\n✅ Finansiering med eller uden udbetaling\n✅ Vi tager gerne din gamle bil i bytte\n\nUdstyr bl.a.:\nel-ruder, centrallås, servostyring, kørecomputer, højdejusterbart rat, AUX-tilslutning, Radio/CD, Isofix, splitbagsæde, airbags samt ESP.\n\nEn solid og økonomisk bil der er klar til mange flere kilometer.\n\n📍 Autohuset Kvik\nGammel Køge Landevej 477, 2650 Hvidovre\n📞 +45 50290874\n\nÅbningstider:\nMan-Tors: 10:00 - 17:00\nFre: 10:00 - 15:00\nLør: Lukket\nSøn: 12:00 - 16:00\n\nKære kunder\n\n\nI denne periode vil Autohuset Kvik være lukket. Vi er tilbage og klar til at hjælpe jer igen fra 16. juli.\n\nAlle henvendelser skal ske via e-mail i ferieperioden, og vi besvarer dem hurtigst muligt.\n\nVi ønsker alle vores kunder en rigtig god sommer!\n\nMed venlig hilsen\nAutohuset Kvik",
+  "createdAt": "2026-10-01T10:06:35.592263",
+  "images": [
+   {
+    "id": 280,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/01.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/01.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/01.jpg",
+    "sortOrder": 1,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 1",
+    "isPrimary": true
+   },
+   {
+    "id": 281,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/02.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/02.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/02.jpg",
+    "sortOrder": 2,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 2",
+    "isPrimary": false
+   },
+   {
+    "id": 282,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/03.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/03.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/03.jpg",
+    "sortOrder": 3,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 3",
+    "isPrimary": false
+   },
+   {
+    "id": 283,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/04.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/04.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/04.jpg",
+    "sortOrder": 4,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 4",
+    "isPrimary": false
+   },
+   {
+    "id": 284,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/05.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/05.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/05.jpg",
+    "sortOrder": 5,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 5",
+    "isPrimary": false
+   },
+   {
+    "id": 285,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/06.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/06.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/06.jpg",
+    "sortOrder": 6,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 6",
+    "isPrimary": false
+   },
+   {
+    "id": 286,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/07.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/07.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/07.jpg",
+    "sortOrder": 7,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 7",
+    "isPrimary": false
+   },
+   {
+    "id": 287,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/08.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/08.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/08.jpg",
+    "sortOrder": 8,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 8",
+    "isPrimary": false
+   },
+   {
+    "id": 288,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/09.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/09.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/09.jpg",
+    "sortOrder": 9,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 9",
+    "isPrimary": false
+   },
+   {
+    "id": 289,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/10.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/10.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/10.jpg",
+    "sortOrder": 10,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 10",
+    "isPrimary": false
+   },
+   {
+    "id": 290,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/11.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/11.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/11.jpg",
+    "sortOrder": 11,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 11",
+    "isPrimary": false
+   },
+   {
+    "id": 291,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/12.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/12.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/12.jpg",
+    "sortOrder": 12,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 12",
+    "isPrimary": false
+   },
+   {
+    "id": 292,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/13.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/13.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/13.jpg",
+    "sortOrder": 13,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 13",
+    "isPrimary": false
+   },
+   {
+    "id": 293,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/14.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/14.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/14.jpg",
+    "sortOrder": 14,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 14",
+    "isPrimary": false
+   },
+   {
+    "id": 294,
+    "filePath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/15.jpg",
+    "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/15.jpg",
+    "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/15.jpg",
+    "sortOrder": 15,
+    "altText": "Skoda Fabia 1,2 6V Classic 5D 2008 – billede 15",
+    "isPrimary": false
+   }
+  ],
+  "features": [],
+  "relatedCars": [],
+  "coverImage": {
+   "thumbnailPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/01.jpg",
+   "webPPath": "/uploads/cars/skoda-fabia-1-2-6v-classic-5d-2008-11/01.jpg",
+   "altText": "Skoda Fabia 1,2 6V Classic 5D 2008"
+  }
+ },
+ {
+  "id": 28,
+  "title": "Peugeot 208",
+  "slug": "peugeot-208-1-6-e-hdi-92-active-5d-2012-10",
+  "make": "Peugeot",
+  "model": "208",
+  "variant": "1,6 e-HDi 92 Active  5D",
+  "year": 2012,
+  "bodyType": "Hatchback 5-dørs",
+  "fuelType": "Diesel",
+  "transmission": "Manuelt",
+  "mileage": 231000,
+  "horsepower": 92,
+  "numDoors": 5,
+  "driveType": "Forhjulstræk",
+  "price": 29900.0,
+  "status": "for_sale",
+  "isFeatured": false,
+  "isNew": false,
+  "badge": "TILBUD",
+  "hasWarranty": true,
+  "warrantyDetails": "Mulighed for 12/24 mdr. garanti og nysynet levering efter aftale.",
+  "isPrepared": true,
+  "hasServiceHistory": true,
+  "isInspected": true,
+  "description": "Peugeot 208 1.6 HDi – 2014 • Op til 30,3 km/l • Kun 520kr. halvårlig ejerafgift!\n\nFlot og velkørende Peugeot 208 med den driftssikre 1.6 HDi dieselmotor. En komfortabel og økonomisk bil, som er perfekt til både pendling og længere ture. Med et brændstofforbrug på op til 30,3 km/l og en halvårlig ejerafgift på kun 520kr. får du en bil med meget lave driftsomkostninger.\n\n✅ Årgang: 2014\n✅ Km: 231.000\n✅ 1.6HDi Diesel\n✅ Op til 30,3 km/l\n✅ Kun 520 kr. halvårlig ejerafgift\n✅ Tandrem skiftet ved 191.000 km\n✅ Leveres nysynet og nyserviceret\n✅ Billig i drift\n✅ Finansiering med eller uden udbetaling\n✅ Vi tager gerne din gamle bil i bytte\n\nUdstyr bl.a.:\nAircondition, el-ruder, fjernbetjent centrallås, fartpilot, kørecomputer, Bluetooth, AUX/USB-tilslutning, radio/CD, højdejusterbart førersæde, splitbagsæde, Isofix, servostyring, ESP og airbags.\n\nEn rummelig, komfortabel og meget økonomisk dieselbil, der kører rigtig godt og er klar til mange flere kilometer.\n\n📍 Autohuset Kvik\nGammel Køge Landevej 477, 2650 Hvidovre\n📞 50 29 08 74\n\nÅbningstider:\nMan-Tors: 10:00 - 17:00\nFre: 10:00 - 15:00\nLør: Lukket\nSøn: 12:00 - 16:00",
+  "createdAt": "2026-10-01T10:06:35.592259",
+  "images": [
+   {
+    "id": 269,
+    "filePath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/01.jpg",
+    "webPPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/01.jpg",
+    "thumbnailPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/01.jpg",
+    "sortOrder": 1,
+    "altText": "Peugeot 208 1,6 e-HDi 92 Active 5D 2012 – billede 1",
+    "isPrimary": true
+   },
+   {
+    "id": 270,
+    "filePath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/02.jpg",
+    "webPPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/02.jpg",
+    "thumbnailPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/02.jpg",
+    "sortOrder": 2,
+    "altText": "Peugeot 208 1,6 e-HDi 92 Active 5D 2012 – billede 2",
+    "isPrimary": false
+   },
+   {
+    "id": 271,
+    "filePath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/03.jpg",
+    "webPPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/03.jpg",
+    "thumbnailPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/03.jpg",
+    "sortOrder": 3,
+    "altText": "Peugeot 208 1,6 e-HDi 92 Active 5D 2012 – billede 3",
+    "isPrimary": false
+   },
+   {
+    "id": 272,
+    "filePath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/04.jpg",
+    "webPPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/04.jpg",
+    "thumbnailPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/04.jpg",
+    "sortOrder": 4,
+    "altText": "Peugeot 208 1,6 e-HDi 92 Active 5D 2012 – billede 4",
+    "isPrimary": false
+   },
+   {
+    "id": 273,
+    "filePath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/05.jpg",
+    "webPPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/05.jpg",
+    "thumbnailPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/05.jpg",
+    "sortOrder": 5,
+    "altText": "Peugeot 208 1,6 e-HDi 92 Active 5D 2012 – billede 5",
+    "isPrimary": false
+   },
+   {
+    "id": 274,
+    "filePath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/06.jpg",
+    "webPPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/06.jpg",
+    "thumbnailPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/06.jpg",
+    "sortOrder": 6,
+    "altText": "Peugeot 208 1,6 e-HDi 92 Active 5D 2012 – billede 6",
+    "isPrimary": false
+   },
+   {
+    "id": 275,
+    "filePath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/07.jpg",
+    "webPPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/07.jpg",
+    "thumbnailPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/07.jpg",
+    "sortOrder": 7,
+    "altText": "Peugeot 208 1,6 e-HDi 92 Active 5D 2012 – billede 7",
+    "isPrimary": false
+   },
+   {
+    "id": 276,
+    "filePath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/08.jpg",
+    "webPPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/08.jpg",
+    "thumbnailPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/08.jpg",
+    "sortOrder": 8,
+    "altText": "Peugeot 208 1,6 e-HDi 92 Active 5D 2012 – billede 8",
+    "isPrimary": false
+   },
+   {
+    "id": 277,
+    "filePath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/09.jpg",
+    "webPPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/09.jpg",
+    "thumbnailPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/09.jpg",
+    "sortOrder": 9,
+    "altText": "Peugeot 208 1,6 e-HDi 92 Active 5D 2012 – billede 9",
+    "isPrimary": false
+   },
+   {
+    "id": 278,
+    "filePath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/10.jpg",
+    "webPPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/10.jpg",
+    "thumbnailPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/10.jpg",
+    "sortOrder": 10,
+    "altText": "Peugeot 208 1,6 e-HDi 92 Active 5D 2012 – billede 10",
+    "isPrimary": false
+   },
+   {
+    "id": 279,
+    "filePath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/11.jpg",
+    "webPPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/11.jpg",
+    "thumbnailPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/11.jpg",
+    "sortOrder": 11,
+    "altText": "Peugeot 208 1,6 e-HDi 92 Active 5D 2012 – billede 11",
+    "isPrimary": false
+   }
+  ],
+  "features": [],
+  "relatedCars": [],
+  "coverImage": {
+   "thumbnailPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/01.jpg",
+   "webPPath": "/uploads/cars/peugeot-208-1-6-e-hdi-92-active-5d-2012-10/01.jpg",
+   "altText": "Peugeot 208 1,6 e-HDi 92 Active 5D 2012"
+  }
+ },
+ {
+  "id": 27,
+  "title": "Fiat 500",
+  "slug": "fiat-500-1-2-pop-3d-2008-9",
+  "make": "Fiat",
+  "model": "500",
+  "variant": "1,2 Pop  3D",
+  "year": 2008,
+  "bodyType": "Hatchback 3-dørs",
+  "fuelType": "Benzin",
+  "transmission": "Manuelt",
+  "mileage": 209000,
+  "horsepower": 69,
+  "numDoors": 3,
+  "driveType": "Forhjulstræk",
+  "price": 29900.0,
+  "status": "for_sale",
+  "isFeatured": false,
+  "isNew": false,
+  "badge": "BRUGT BIL",
+  "hasWarranty": true,
+  "warrantyDetails": "Mulighed for 12/24 mdr. garanti og nysynet levering efter aftale.",
+  "isPrepared": true,
+  "hasServiceHistory": true,
+  "isInspected": true,
+  "description": "Fiat 500 – 209.000 km\n\nSmart og økonomisk Fiat 500 med fin servicehistorik. Bilen er nysynet, nyserviceret og har fået ny kobling samt nyt leje i gearkassen. Den starter og kører rigtig godt og er klar til mange problemfrie kilometer.\n\n✅ Nysynet\n✅ Nyserviceret\n✅ Fin servicehistorik\n✅ Ny kobling\n✅ Nyt leje i gearkassen\n✅ El-betjente sidespejle\n✅ El-ruder for\n✅ Fjernbetjent centrallås\n✅ Splitbagsæde\n✅ Elektrisk servostyring med City-funktion\n✅ Start &amp; Stop\n✅ Tripcomputer\n✅ Højdejusterbart førersæde\n✅ Højdejusterbart rat\n\n&#x1f697; Velholdt bil med lave driftsomkostninger og god økonomi. Perfekt som pendlerbil, bybil eller førstegangsbil.\n\n📍 Autohuset Kvik\n&#x1f527; Eget værksted\n&#x1f697; Vi tager gerne din nuværende bil i bytte\n\nKontakt os for fremvisning eller prøvekørsel.",
+  "createdAt": "2026-10-01T10:06:35.592257",
+  "images": [
+   {
+    "id": 256,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/01.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/01.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/01.jpg",
+    "sortOrder": 1,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 1",
+    "isPrimary": true
+   },
+   {
+    "id": 257,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/02.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/02.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/02.jpg",
+    "sortOrder": 2,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 2",
+    "isPrimary": false
+   },
+   {
+    "id": 258,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/03.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/03.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/03.jpg",
+    "sortOrder": 3,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 3",
+    "isPrimary": false
+   },
+   {
+    "id": 259,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/04.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/04.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/04.jpg",
+    "sortOrder": 4,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 4",
+    "isPrimary": false
+   },
+   {
+    "id": 260,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/05.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/05.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/05.jpg",
+    "sortOrder": 5,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 5",
+    "isPrimary": false
+   },
+   {
+    "id": 261,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/06.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/06.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/06.jpg",
+    "sortOrder": 6,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 6",
+    "isPrimary": false
+   },
+   {
+    "id": 262,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/07.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/07.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/07.jpg",
+    "sortOrder": 7,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 7",
+    "isPrimary": false
+   },
+   {
+    "id": 263,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/08.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/08.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/08.jpg",
+    "sortOrder": 8,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 8",
+    "isPrimary": false
+   },
+   {
+    "id": 264,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/09.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/09.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/09.jpg",
+    "sortOrder": 9,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 9",
+    "isPrimary": false
+   },
+   {
+    "id": 265,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/10.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/10.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/10.jpg",
+    "sortOrder": 10,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 10",
+    "isPrimary": false
+   },
+   {
+    "id": 266,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/11.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/11.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/11.jpg",
+    "sortOrder": 11,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 11",
+    "isPrimary": false
+   },
+   {
+    "id": 267,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/12.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/12.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/12.jpg",
+    "sortOrder": 12,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 12",
+    "isPrimary": false
+   },
+   {
+    "id": 268,
+    "filePath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/13.jpg",
+    "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/13.jpg",
+    "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/13.jpg",
+    "sortOrder": 13,
+    "altText": "Fiat 500 1,2 Pop 3D 2008 – billede 13",
+    "isPrimary": false
+   }
+  ],
+  "features": [],
+  "relatedCars": [],
+  "coverImage": {
+   "thumbnailPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/01.jpg",
+   "webPPath": "/uploads/cars/fiat-500-1-2-pop-3d-2008-9/01.jpg",
+   "altText": "Fiat 500 1,2 Pop 3D 2008"
+  }
+ },
+ {
+  "id": 26,
+  "title": "Land Rover Range Rover Sport",
+  "slug": "land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8",
+  "make": "Land Rover",
+  "model": "Range Rover Sport",
+  "variant": "2,7 TDV6 SE aut.  5D",
+  "year": 2005,
+  "bodyType": "Kassevogn",
+  "fuelType": "Diesel",
+  "transmission": "Automatisk",
+  "mileage": 294000,
+  "horsepower": 190,
+  "numDoors": 5,
+  "driveType": "Firehjulstræk",
+  "price": 35900.0,
+  "status": "for_sale",
+  "isFeatured": false,
+  "isNew": false,
+  "badge": "BRUGT BIL",
+  "hasWarranty": true,
+  "warrantyDetails": "Mulighed for 12/24 mdr. garanti og nysynet levering efter aftale.",
+  "isPrepared": true,
+  "hasServiceHistory": true,
+  "isInspected": true,
+  "description": "RANGE ROVER SPORT – 2005 | 294.000 KM\n\nFlot og rummelig Range Rover Sport fra 2005. Bilen starter og kører fint og byder på masser af komfort og god plads.\n\n✅ Årgang: 2005\n✅ Kilometer: 294.000 km\n✅ Automatgear\n✅ Ny tandstang\n✅ 4 helt nye dæk\n✅ Læderkabine\n✅ Klimaanlæg / Aircondition\n✅ El-ruder\n✅ El-spejle\n✅ Fartpilot\n✅ Multifunktionsrat\n✅ Alufælge\n✅ Centrallås\n\n&#x1f527; Bilen er ikke synet.\n\nBilen har nogle ridser og almindelige brugsspor rundt omkring, hvilket må forventes af en bil fra 2005. Ellers fremstår den fint i forhold til alder og kilometer.\n\nDer er netop investeret i bilen med ny tandstang samt 4 nye dæk.\n\n📍 Autohuset Kvik – Hvidovre",
+  "createdAt": "2026-10-01T10:06:35.592249",
+  "images": [
+   {
+    "id": 248,
+    "filePath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/01.jpg",
+    "webPPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/01.jpg",
+    "thumbnailPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/01.jpg",
+    "sortOrder": 1,
+    "altText": "Land Rover Range Rover Sport 2,7 TDV6 SE aut. 5D 2005 – billede 1",
+    "isPrimary": true
+   },
+   {
+    "id": 249,
+    "filePath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/02.jpg",
+    "webPPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/02.jpg",
+    "thumbnailPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/02.jpg",
+    "sortOrder": 2,
+    "altText": "Land Rover Range Rover Sport 2,7 TDV6 SE aut. 5D 2005 – billede 2",
+    "isPrimary": false
+   },
+   {
+    "id": 250,
+    "filePath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/03.jpg",
+    "webPPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/03.jpg",
+    "thumbnailPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/03.jpg",
+    "sortOrder": 3,
+    "altText": "Land Rover Range Rover Sport 2,7 TDV6 SE aut. 5D 2005 – billede 3",
+    "isPrimary": false
+   },
+   {
+    "id": 251,
+    "filePath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/04.jpg",
+    "webPPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/04.jpg",
+    "thumbnailPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/04.jpg",
+    "sortOrder": 4,
+    "altText": "Land Rover Range Rover Sport 2,7 TDV6 SE aut. 5D 2005 – billede 4",
+    "isPrimary": false
+   },
+   {
+    "id": 252,
+    "filePath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/05.jpg",
+    "webPPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/05.jpg",
+    "thumbnailPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/05.jpg",
+    "sortOrder": 5,
+    "altText": "Land Rover Range Rover Sport 2,7 TDV6 SE aut. 5D 2005 – billede 5",
+    "isPrimary": false
+   },
+   {
+    "id": 253,
+    "filePath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/06.jpg",
+    "webPPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/06.jpg",
+    "thumbnailPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/06.jpg",
+    "sortOrder": 6,
+    "altText": "Land Rover Range Rover Sport 2,7 TDV6 SE aut. 5D 2005 – billede 6",
+    "isPrimary": false
+   },
+   {
+    "id": 254,
+    "filePath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/07.jpg",
+    "webPPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/07.jpg",
+    "thumbnailPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/07.jpg",
+    "sortOrder": 7,
+    "altText": "Land Rover Range Rover Sport 2,7 TDV6 SE aut. 5D 2005 – billede 7",
+    "isPrimary": false
+   },
+   {
+    "id": 255,
+    "filePath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/08.jpg",
+    "webPPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/08.jpg",
+    "thumbnailPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/08.jpg",
+    "sortOrder": 8,
+    "altText": "Land Rover Range Rover Sport 2,7 TDV6 SE aut. 5D 2005 – billede 8",
+    "isPrimary": false
+   }
+  ],
+  "features": [],
+  "relatedCars": [],
+  "coverImage": {
+   "thumbnailPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/01.jpg",
+   "webPPath": "/uploads/cars/land-rover-range-rover-sport-2-7-tdv6-se-aut-5d-2005-8/01.jpg",
+   "altText": "Land Rover Range Rover Sport 2,7 TDV6 SE aut. 5D 2005"
+  }
+ },
+ {
+  "id": 25,
+  "title": "Suzuki Alto",
+  "slug": "suzuki-alto-1-0-comfort-5d-2009-7",
+  "make": "Suzuki",
+  "model": "Alto",
+  "variant": "1,0 Comfort  5D",
+  "year": 2009,
+  "bodyType": "Hatchback 5-dørs",
+  "fuelType": "Benzin",
+  "transmission": "Manuelt",
+  "mileage": 211000,
+  "horsepower": 68,
+  "numDoors": 5,
+  "driveType": "Forhjulstræk",
+  "price": 16900.0,
+  "status": "for_sale",
+  "isFeatured": false,
+  "isNew": false,
+  "badge": "TILBUD",
+  "hasWarranty": true,
+  "warrantyDetails": "Mulighed for 12/24 mdr. garanti og nysynet levering efter aftale.",
+  "isPrepared": true,
+  "hasServiceHistory": true,
+  "isInspected": true,
+  "description": "SUZUKI ALTO – 2009 | 211.000 KM | NYSYNET &amp; NYSERVICERET\n\nFin og økonomisk Suzuki Alto fra 2009, som har kørt 211.000 km. En praktisk og billig bil, der er perfekt som bybil, pendlerbil eller førstegangsbil.\n\nBilen starter og kører fint og leveres klar til den nye ejer.\n\n✅ Årgang 2009\n✅ Kørt 211.000 km\n✅ Leveres nysynet\n✅ Leveres nyserviceret\n✅ Benzin\n✅ Økonomisk i drift\n✅ Billig at holde kørende\n✅ Praktisk og nem at parkere\n\n&#x1f527; EGET VÆRKSTED\nVi har eget værksted, hvor vores biler bliver serviceret og klargjort.\n\n📍 Autohuset Kvik\nGammel Køge Landevej 477\n2650 Hvidovre",
+  "createdAt": "2026-10-01T10:06:35.592245",
+  "images": [
+   {
+    "id": 237,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/01.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/01.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/01.jpg",
+    "sortOrder": 1,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2009 – billede 1",
+    "isPrimary": true
+   },
+   {
+    "id": 238,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/02.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/02.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/02.jpg",
+    "sortOrder": 2,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2009 – billede 2",
+    "isPrimary": false
+   },
+   {
+    "id": 239,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/03.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/03.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/03.jpg",
+    "sortOrder": 3,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2009 – billede 3",
+    "isPrimary": false
+   },
+   {
+    "id": 240,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/04.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/04.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/04.jpg",
+    "sortOrder": 4,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2009 – billede 4",
+    "isPrimary": false
+   },
+   {
+    "id": 241,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/05.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/05.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/05.jpg",
+    "sortOrder": 5,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2009 – billede 5",
+    "isPrimary": false
+   },
+   {
+    "id": 242,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/06.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/06.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/06.jpg",
+    "sortOrder": 6,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2009 – billede 6",
+    "isPrimary": false
+   },
+   {
+    "id": 243,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/07.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/07.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/07.jpg",
+    "sortOrder": 7,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2009 – billede 7",
+    "isPrimary": false
+   },
+   {
+    "id": 244,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/08.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/08.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/08.jpg",
+    "sortOrder": 8,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2009 – billede 8",
+    "isPrimary": false
+   },
+   {
+    "id": 245,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/09.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/09.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/09.jpg",
+    "sortOrder": 9,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2009 – billede 9",
+    "isPrimary": false
+   },
+   {
+    "id": 246,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/10.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/10.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/10.jpg",
+    "sortOrder": 10,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2009 – billede 10",
+    "isPrimary": false
+   },
+   {
+    "id": 247,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/11.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/11.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/11.jpg",
+    "sortOrder": 11,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2009 – billede 11",
+    "isPrimary": false
+   }
+  ],
+  "features": [],
+  "relatedCars": [],
+  "coverImage": {
+   "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/01.jpg",
+   "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2009-7/01.jpg",
+   "altText": "Suzuki Alto 1,0 Comfort 5D 2009"
+  }
+ },
+ {
+  "id": 24,
+  "title": "BMW 420d",
+  "slug": "bmw-420d-2-0-gran-coup-aut-5d-2016-6",
+  "make": "BMW",
+  "model": "420d",
+  "variant": "2,0 Gran Coupé aut.  5D",
+  "year": 2016,
+  "bodyType": "Hatchback 5-dørs",
+  "fuelType": "Diesel",
+  "transmission": "Automatisk",
+  "mileage": 227000,
+  "horsepower": 190,
+  "numDoors": 5,
+  "driveType": "Baghjulstræk",
+  "price": 142500.0,
+  "status": "for_sale",
+  "isFeatured": false,
+  "isNew": false,
+  "badge": "BRUGT BIL",
+  "hasWarranty": true,
+  "warrantyDetails": "Mulighed for 12/24 mdr. garanti og nysynet levering efter aftale.",
+  "isPrepared": true,
+  "hasServiceHistory": true,
+  "isInspected": true,
+  "description": "BMW 420d – 2017 227.000 km  Automatgear \n\nFlot og velholdt BMW 420d fra 2017 med den stærke og økonomiske dieselmotor samt 8-trins Steptronic automatgear.\n\nBilen har kørt 227.000 km og er blevet passet og plejet med service for hver ca. 15.000 km. Den starter og kører rigtig godt og byder på masser af komfort og lækkert udstyr.\n\nUdstyr\n\n✅ 8-trins Steptronic automatgear\n✅ Mineral White metallak\n✅ M læderrat\n✅ Eftermonteret Apple CarPlay\n✅ Eftermonteret bakkamera\n✅ Bluetooth\n✅ USB-interface\n✅ Xenon-forlygter\n✅ Automatisk klimaanlæg\n✅ Sædevarme foran\n✅ Regnsensor\n✅ Automatisk bagklap\n✅ Dæktryksovervågning\n✅ Runflat-dæk\n✅ Forlygtevaskeanlæg\n✅ Forskydeligt armlæn foran\n✅ 12V-stik\n✅ Deaktivering af passagerairbag\n✅ Låsebolte\n✅ Cold-climate version\n✅ ISOFIX\n✅ Kørecomputer\n✅ Multifunktionsrat\n\nPasset og serviceret\n\nBilen er passet godt og har fået service for hver ca. 15.000 km. Den kører rigtig godt og er en komfortabel og økonomisk BMW, der er perfekt til både hverdagskørsel og længere ture.\n\nFORMIDLINGSSALG\n\nBilen sælges som formidlingssalg.\n\n📞 Ring for en aftale inden fremvisning.\n\n&#x1f6e1;️ Bilen kan leveres med 12 måneders garanti for 8.995 kr.\n\nAutohuset Kvik\n📍 Gammel Køge Landevej 477, Hvidovre\n&#x1f527; Eget værksted",
+  "createdAt": "2026-10-01T10:06:35.592243",
+  "images": [
+   {
+    "id": 225,
+    "filePath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/01.jpg",
+    "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/01.jpg",
+    "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/01.jpg",
+    "sortOrder": 1,
+    "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016 – billede 1",
+    "isPrimary": true
+   },
+   {
+    "id": 226,
+    "filePath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/02.jpg",
+    "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/02.jpg",
+    "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/02.jpg",
+    "sortOrder": 2,
+    "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016 – billede 2",
+    "isPrimary": false
+   },
+   {
+    "id": 227,
+    "filePath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/03.jpg",
+    "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/03.jpg",
+    "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/03.jpg",
+    "sortOrder": 3,
+    "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016 – billede 3",
+    "isPrimary": false
+   },
+   {
+    "id": 228,
+    "filePath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/04.jpg",
+    "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/04.jpg",
+    "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/04.jpg",
+    "sortOrder": 4,
+    "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016 – billede 4",
+    "isPrimary": false
+   },
+   {
+    "id": 229,
+    "filePath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/05.jpg",
+    "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/05.jpg",
+    "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/05.jpg",
+    "sortOrder": 5,
+    "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016 – billede 5",
+    "isPrimary": false
+   },
+   {
+    "id": 230,
+    "filePath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/06.jpg",
+    "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/06.jpg",
+    "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/06.jpg",
+    "sortOrder": 6,
+    "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016 – billede 6",
+    "isPrimary": false
+   },
+   {
+    "id": 231,
+    "filePath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/07.jpg",
+    "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/07.jpg",
+    "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/07.jpg",
+    "sortOrder": 7,
+    "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016 – billede 7",
+    "isPrimary": false
+   },
+   {
+    "id": 232,
+    "filePath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/08.jpg",
+    "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/08.jpg",
+    "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/08.jpg",
+    "sortOrder": 8,
+    "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016 – billede 8",
+    "isPrimary": false
+   },
+   {
+    "id": 233,
+    "filePath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/09.jpg",
+    "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/09.jpg",
+    "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/09.jpg",
+    "sortOrder": 9,
+    "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016 – billede 9",
+    "isPrimary": false
+   },
+   {
+    "id": 234,
+    "filePath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/10.jpg",
+    "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/10.jpg",
+    "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/10.jpg",
+    "sortOrder": 10,
+    "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016 – billede 10",
+    "isPrimary": false
+   },
+   {
+    "id": 235,
+    "filePath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/11.jpg",
+    "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/11.jpg",
+    "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/11.jpg",
+    "sortOrder": 11,
+    "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016 – billede 11",
+    "isPrimary": false
+   },
+   {
+    "id": 236,
+    "filePath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/12.jpg",
+    "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/12.jpg",
+    "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/12.jpg",
+    "sortOrder": 12,
+    "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016 – billede 12",
+    "isPrimary": false
+   }
+  ],
+  "features": [],
+  "relatedCars": [],
+  "coverImage": {
+   "thumbnailPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/01.jpg",
+   "webPPath": "/uploads/cars/bmw-420d-2-0-gran-coup-aut-5d-2016-6/01.jpg",
+   "altText": "BMW 420d 2,0 Gran Coupé aut. 5D 2016"
+  }
+ },
+ {
+  "id": 23,
+  "title": "Citroën C1",
+  "slug": "citroen-c1-1-0i-attraction-5d-2012-5",
+  "make": "Citroen",
+  "model": "C1",
+  "variant": "1,0i Attraction  5D",
+  "year": 2012,
+  "bodyType": "Hatchback 5-dørs",
+  "fuelType": "Benzin",
+  "transmission": "Manuelt",
+  "mileage": 125000,
+  "horsepower": 68,
+  "numDoors": 5,
+  "driveType": "Forhjulstræk",
+  "price": 28900.0,
+  "status": "for_sale",
+  "isFeatured": false,
+  "isNew": false,
+  "badge": "BRUGT BIL",
+  "hasWarranty": true,
+  "warrantyDetails": "Mulighed for 12/24 mdr. garanti og nysynet levering efter aftale.",
+  "isPrepared": true,
+  "hasServiceHistory": true,
+  "isInspected": true,
+  "description": "Citroën C1 | 125.000 km | Ny kobling | Leveres nysynet &amp; nyserviceret\n\nFin og økonomisk Citroën C1 med kun 125.000 km på tælleren.\n\nBilen er i øjeblikket under klargøring, og der kommer derfor nye billeder op snarest.\n\nBilen har netop fået ny kobling og leveres selvfølgelig nysynet og nyserviceret, så den er klar til sin nye ejer.\n\n✅ Kun kørt 125.000 km\n✅ Ny kobling\n✅ Leveres nysynet\n✅ Leveres nyserviceret\n✅ Økonomisk i drift\n✅ Billig at holde kørende\n✅ Perfekt som bybil eller førstegangsbil\n✅ Nem at parkere\n\n&#x1f527; Bilen er under klargøring – nye billeder kommer snart!\n\n📍 Autohuset Kvik\nGammel Køge Landevej 477\n2650 Hvidovre\n\n&#x1f527; Eget værksted\n\n&#x1f698; Byttebil tages gerne i bytte.\n\n&#x1f4e9; Kontakt os allerede nu for mere information, fremvisning eller reservation.",
+  "createdAt": "2026-10-01T10:06:35.592239",
+  "images": [
+   {
+    "id": 213,
+    "filePath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/01.jpg",
+    "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/01.jpg",
+    "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/01.jpg",
+    "sortOrder": 1,
+    "altText": "Citroen C1 1,0i Attraction 5D 2012 – billede 1",
+    "isPrimary": true
+   },
+   {
+    "id": 214,
+    "filePath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/02.jpg",
+    "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/02.jpg",
+    "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/02.jpg",
+    "sortOrder": 2,
+    "altText": "Citroen C1 1,0i Attraction 5D 2012 – billede 2",
+    "isPrimary": false
+   },
+   {
+    "id": 215,
+    "filePath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/03.jpg",
+    "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/03.jpg",
+    "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/03.jpg",
+    "sortOrder": 3,
+    "altText": "Citroen C1 1,0i Attraction 5D 2012 – billede 3",
+    "isPrimary": false
+   },
+   {
+    "id": 216,
+    "filePath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/04.jpg",
+    "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/04.jpg",
+    "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/04.jpg",
+    "sortOrder": 4,
+    "altText": "Citroen C1 1,0i Attraction 5D 2012 – billede 4",
+    "isPrimary": false
+   },
+   {
+    "id": 217,
+    "filePath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/05.jpg",
+    "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/05.jpg",
+    "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/05.jpg",
+    "sortOrder": 5,
+    "altText": "Citroen C1 1,0i Attraction 5D 2012 – billede 5",
+    "isPrimary": false
+   },
+   {
+    "id": 218,
+    "filePath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/06.jpg",
+    "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/06.jpg",
+    "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/06.jpg",
+    "sortOrder": 6,
+    "altText": "Citroen C1 1,0i Attraction 5D 2012 – billede 6",
+    "isPrimary": false
+   },
+   {
+    "id": 219,
+    "filePath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/07.jpg",
+    "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/07.jpg",
+    "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/07.jpg",
+    "sortOrder": 7,
+    "altText": "Citroen C1 1,0i Attraction 5D 2012 – billede 7",
+    "isPrimary": false
+   },
+   {
+    "id": 220,
+    "filePath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/08.jpg",
+    "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/08.jpg",
+    "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/08.jpg",
+    "sortOrder": 8,
+    "altText": "Citroen C1 1,0i Attraction 5D 2012 – billede 8",
+    "isPrimary": false
+   },
+   {
+    "id": 221,
+    "filePath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/09.jpg",
+    "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/09.jpg",
+    "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/09.jpg",
+    "sortOrder": 9,
+    "altText": "Citroen C1 1,0i Attraction 5D 2012 – billede 9",
+    "isPrimary": false
+   },
+   {
+    "id": 222,
+    "filePath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/10.jpg",
+    "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/10.jpg",
+    "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/10.jpg",
+    "sortOrder": 10,
+    "altText": "Citroen C1 1,0i Attraction 5D 2012 – billede 10",
+    "isPrimary": false
+   },
+   {
+    "id": 223,
+    "filePath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/11.jpg",
+    "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/11.jpg",
+    "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/11.jpg",
+    "sortOrder": 11,
+    "altText": "Citroen C1 1,0i Attraction 5D 2012 – billede 11",
+    "isPrimary": false
+   },
+   {
+    "id": 224,
+    "filePath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/12.jpg",
+    "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/12.jpg",
+    "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/12.jpg",
+    "sortOrder": 12,
+    "altText": "Citroen C1 1,0i Attraction 5D 2012 – billede 12",
+    "isPrimary": false
+   }
+  ],
+  "features": [],
+  "relatedCars": [],
+  "coverImage": {
+   "thumbnailPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/01.jpg",
+   "webPPath": "/uploads/cars/citroen-c1-1-0i-attraction-5d-2012-5/01.jpg",
+   "altText": "Citroen C1 1,0i Attraction 5D 2012"
+  }
+ },
+ {
+  "id": 22,
+  "title": "Nissan Micra",
+  "slug": "nissan-micra-1-2-acenta-5d-2011-4",
+  "make": "Nissan",
+  "model": "Micra",
+  "variant": "1,2 Acenta  5D",
+  "year": 2011,
+  "bodyType": "Hatchback 5-dørs",
+  "fuelType": "Benzin",
+  "transmission": "Manuelt",
+  "mileage": 162000,
+  "horsepower": 80,
+  "numDoors": 5,
+  "driveType": "Forhjulstræk",
+  "price": 24900.0,
+  "status": "for_sale",
+  "isFeatured": true,
+  "isNew": false,
+  "badge": "TILBUD",
+  "hasWarranty": true,
+  "warrantyDetails": "Mulighed for 12/24 mdr. garanti og nysynet levering efter aftale.",
+  "isPrepared": true,
+  "hasServiceHistory": true,
+  "isInspected": true,
+  "description": "Nissan Micra 1.2 – 2012 | Kun 162.000 km | Nysynet &amp; nyserviceret!\n\nFlot og velholdt Nissan Micra fra 2012 med kun 162.000 km på tælleren. Bilen er nysynet og nyserviceret, så den er helt klar til sin nye ejer. En økonomisk, driftssikker og billig bil i hverdagen – perfekt som pendlerbil eller førstegangsbil.\n\nUdstyr:\n✅ ABS-bremser\n✅ Fjernbetjent centrallås\n✅ El-ruder for\n✅ El-justerbare og el-opvarmede sidespejle\n✅ Højdejusterbart førersæde\n✅ Justerbart rat\n✅ Radio/CD-afspiller\n✅ ISOFIX\n✅ Halogenforlygter med højdejustering\n✅ Stænkklapper\n✅ Startspærre\n\n&#x1f527; Nysynet\n&#x1f527; Nyserviceret\n\n📍 Autohusetkvik – Bilhandel &amp; Værksted\n📞 50 19 07 21\n\nÅbningstider:\n&#x1f559; Man–Tors: 10:00 – 17:00\n&#x1f559; Fredag: 10:00 – 15:00\n❌ Lørdag: Lukket\n&#x1f55b; Søndag: 12:00 – 16:00\n\n📞 Ring eller skriv for pris, fremvisning eller en prøvetur.",
+  "createdAt": "2026-10-01T10:06:35.592232",
+  "images": [
+   {
+    "id": 200,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/01.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/01.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/01.jpg",
+    "sortOrder": 1,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 1",
+    "isPrimary": true
+   },
+   {
+    "id": 201,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/02.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/02.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/02.jpg",
+    "sortOrder": 2,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 2",
+    "isPrimary": false
+   },
+   {
+    "id": 202,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/03.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/03.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/03.jpg",
+    "sortOrder": 3,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 3",
+    "isPrimary": false
+   },
+   {
+    "id": 203,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/04.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/04.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/04.jpg",
+    "sortOrder": 4,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 4",
+    "isPrimary": false
+   },
+   {
+    "id": 204,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/05.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/05.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/05.jpg",
+    "sortOrder": 5,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 5",
+    "isPrimary": false
+   },
+   {
+    "id": 205,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/06.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/06.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/06.jpg",
+    "sortOrder": 6,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 6",
+    "isPrimary": false
+   },
+   {
+    "id": 206,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/07.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/07.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/07.jpg",
+    "sortOrder": 7,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 7",
+    "isPrimary": false
+   },
+   {
+    "id": 207,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/08.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/08.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/08.jpg",
+    "sortOrder": 8,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 8",
+    "isPrimary": false
+   },
+   {
+    "id": 208,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/09.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/09.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/09.jpg",
+    "sortOrder": 9,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 9",
+    "isPrimary": false
+   },
+   {
+    "id": 209,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/10.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/10.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/10.jpg",
+    "sortOrder": 10,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 10",
+    "isPrimary": false
+   },
+   {
+    "id": 210,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/11.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/11.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/11.jpg",
+    "sortOrder": 11,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 11",
+    "isPrimary": false
+   },
+   {
+    "id": 211,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/12.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/12.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/12.jpg",
+    "sortOrder": 12,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 12",
+    "isPrimary": false
+   },
+   {
+    "id": 212,
+    "filePath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/13.jpg",
+    "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/13.jpg",
+    "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/13.jpg",
+    "sortOrder": 13,
+    "altText": "Nissan Micra 1,2 Acenta 5D 2011 – billede 13",
+    "isPrimary": false
+   }
+  ],
+  "features": [],
+  "relatedCars": [],
+  "coverImage": {
+   "thumbnailPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/01.jpg",
+   "webPPath": "/uploads/cars/nissan-micra-1-2-acenta-5d-2011-4/01.jpg",
+   "altText": "Nissan Micra 1,2 Acenta 5D 2011"
+  }
+ },
+ {
+  "id": 21,
+  "title": "Suzuki Alto",
+  "slug": "suzuki-alto-1-0-comfort-5d-2010-3",
+  "make": "Suzuki",
+  "model": "Alto",
+  "variant": "1,0 Comfort  5D",
+  "year": 2010,
+  "bodyType": "Hatchback 5-dørs",
+  "fuelType": "Benzin",
+  "transmission": "Manuelt",
+  "mileage": 120000,
+  "horsepower": 68,
+  "numDoors": 5,
+  "driveType": "Forhjulstræk",
+  "price": 24900.0,
+  "status": "for_sale",
+  "isFeatured": true,
+  "isNew": false,
+  "badge": "FREMHÆVET",
+  "hasWarranty": true,
+  "warrantyDetails": "Mulighed for 12/24 mdr. garanti og nysynet levering efter aftale.",
+  "isPrepared": true,
+  "hasServiceHistory": true,
+  "isInspected": true,
+  "description": "Suzuki Alto – 2010 – 120.000 km – Benzin/Gas\n\nPæn og økonomisk Suzuki Alto fra 2010, som kun har kørt 120.000 km. Bilen starter og kører godt og er en rigtig god og billig hverdagsbil.\n\n⭐ KAN KØRE PÅ BÅDE BENZIN OG GAS ⭐\n\nBilen er udstyret med gasanlæg og kan derfor køre på både benzin og gas. Det giver mulighed for at holde brændstofudgifterne nede – især med de høje benzinpriser.\n\nUDSTYR:\n\n✓ Aircondition\n✓ El-ruder\n✓ Centrallås\n✓ Servostyring\n✓ Radio/CD\n✓ ABS-bremser\n✓ Airbags\n✓ ISOFIX\n✓ Justerbart rat\n✓ Splitbagsæde\n✓ Startspærre\n\nVED LEVERING:\n\n✓ Leveres nysynet\n✓ Leveres nyserviceret\n✓ Kun kørt 120.000 km\n✓ Benzin + gas\n\nEn oplagt bil til dig, der søger en billig, økonomisk og praktisk bil til hverdagen.\n\n📍 Autohuset Kvik – Hvidovre\n&#x1f527; Eget værksted\n\nKontakt os for fremvisning og prøvekørsel.",
+  "createdAt": "2026-10-01T10:06:35.592229",
+  "images": [
+   {
+    "id": 187,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/01.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/01.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/01.jpg",
+    "sortOrder": 1,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 1",
+    "isPrimary": true
+   },
+   {
+    "id": 188,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/02.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/02.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/02.jpg",
+    "sortOrder": 2,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 2",
+    "isPrimary": false
+   },
+   {
+    "id": 189,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/03.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/03.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/03.jpg",
+    "sortOrder": 3,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 3",
+    "isPrimary": false
+   },
+   {
+    "id": 190,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/04.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/04.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/04.jpg",
+    "sortOrder": 4,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 4",
+    "isPrimary": false
+   },
+   {
+    "id": 191,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/05.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/05.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/05.jpg",
+    "sortOrder": 5,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 5",
+    "isPrimary": false
+   },
+   {
+    "id": 192,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/06.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/06.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/06.jpg",
+    "sortOrder": 6,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 6",
+    "isPrimary": false
+   },
+   {
+    "id": 193,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/07.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/07.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/07.jpg",
+    "sortOrder": 7,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 7",
+    "isPrimary": false
+   },
+   {
+    "id": 194,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/08.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/08.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/08.jpg",
+    "sortOrder": 8,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 8",
+    "isPrimary": false
+   },
+   {
+    "id": 195,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/09.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/09.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/09.jpg",
+    "sortOrder": 9,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 9",
+    "isPrimary": false
+   },
+   {
+    "id": 196,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/10.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/10.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/10.jpg",
+    "sortOrder": 10,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 10",
+    "isPrimary": false
+   },
+   {
+    "id": 197,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/11.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/11.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/11.jpg",
+    "sortOrder": 11,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 11",
+    "isPrimary": false
+   },
+   {
+    "id": 198,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/12.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/12.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/12.jpg",
+    "sortOrder": 12,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 12",
+    "isPrimary": false
+   },
+   {
+    "id": 199,
+    "filePath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/13.jpg",
+    "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/13.jpg",
+    "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/13.jpg",
+    "sortOrder": 13,
+    "altText": "Suzuki Alto 1,0 Comfort 5D 2010 – billede 13",
+    "isPrimary": false
+   }
+  ],
+  "features": [],
+  "relatedCars": [],
+  "coverImage": {
+   "thumbnailPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/01.jpg",
+   "webPPath": "/uploads/cars/suzuki-alto-1-0-comfort-5d-2010-3/01.jpg",
+   "altText": "Suzuki Alto 1,0 Comfort 5D 2010"
+  }
+ },
+ {
+  "id": 20,
+  "title": "Renault Clio IV",
+  "slug": "renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2",
+  "make": "Renault",
+  "model": "Clio IV",
+  "variant": "0,9 TCe 90 Dynamique Sport Tourer  5D",
+  "year": 2014,
+  "bodyType": "Stationcar",
+  "fuelType": "Benzin",
+  "transmission": "Manuelt",
+  "mileage": 203000,
+  "horsepower": 90,
+  "numDoors": 5,
+  "driveType": "Forhjulstræk",
+  "price": 29900.0,
+  "status": "for_sale",
+  "isFeatured": true,
+  "isNew": false,
+  "badge": "FREMHÆVET",
+  "hasWarranty": true,
+  "warrantyDetails": "Mulighed for 12/24 mdr. garanti og nysynet levering efter aftale.",
+  "isPrepared": true,
+  "hasServiceHistory": true,
+  "isInspected": true,
+  "description": "BEMÆRK: Bilen er i øjeblikket under klargøring. Nye billeder vil blive tilføjet snarest.\n\nRenault Clio – 2014 | 203.000 km | Nysynet &amp; nyserviceret\n\nFlot og velkørende Renault Clio fra 2014. Bilen har kørt 203.000 km og starter og kører rigtig godt. Den leveres nysynet og nyserviceret, så den er klar til sin nye ejer.\n\nBilen står på helårsdæk og har en rigtig fin udstyrspakke.\n\n✅ Årgang: 2014\n✅ Kilometer: 203.000 km\n✅ Leveres nysynet\n✅ Leveres nyserviceret\n✅ Cruise control / fartpilot\n✅ Sædevarme foran\n✅ Regnsensor\n✅ El-ruder foran\n✅ Læderrat\n✅ Kørecomputer\n✅ Tågeforlygter\n✅ Højdejusterbart førersæde\n✅ Fjernbetjent/elektronisk startspærre\n✅ ESP\n✅ ABS / BAS / EBD\n✅ Isofix\n✅ 12V stik i midterkonsol\n✅ Splitbagsæde 60/40\n✅ Airbags\n✅ Nakkestøtter ved alle sæder\n\nEn økonomisk og praktisk bil, der egner sig rigtig godt til både bykørsel og længere ture.\n\n📍 Autohuset Kvik\nGammel Køge Landevej 477\n2650 Hvidovre\n\n&#x1f527; Vi har eget værksted og sørger for, at bilen leveres nysynet og nyserviceret.\n\n&#x1f698; Byttebil tages gerne i bytte.\n\n&#x1f4e9; Kontakt os for fremvisning eller prøvekørsel.",
+  "createdAt": "2026-10-01T10:06:35.592222",
+  "images": [
+   {
+    "id": 172,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/01.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/01.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/01.jpg",
+    "sortOrder": 1,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 1",
+    "isPrimary": true
+   },
+   {
+    "id": 173,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/02.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/02.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/02.jpg",
+    "sortOrder": 2,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 2",
+    "isPrimary": false
+   },
+   {
+    "id": 174,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/03.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/03.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/03.jpg",
+    "sortOrder": 3,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 3",
+    "isPrimary": false
+   },
+   {
+    "id": 175,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/04.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/04.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/04.jpg",
+    "sortOrder": 4,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 4",
+    "isPrimary": false
+   },
+   {
+    "id": 176,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/05.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/05.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/05.jpg",
+    "sortOrder": 5,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 5",
+    "isPrimary": false
+   },
+   {
+    "id": 177,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/06.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/06.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/06.jpg",
+    "sortOrder": 6,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 6",
+    "isPrimary": false
+   },
+   {
+    "id": 178,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/07.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/07.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/07.jpg",
+    "sortOrder": 7,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 7",
+    "isPrimary": false
+   },
+   {
+    "id": 179,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/08.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/08.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/08.jpg",
+    "sortOrder": 8,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 8",
+    "isPrimary": false
+   },
+   {
+    "id": 180,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/09.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/09.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/09.jpg",
+    "sortOrder": 9,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 9",
+    "isPrimary": false
+   },
+   {
+    "id": 181,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/10.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/10.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/10.jpg",
+    "sortOrder": 10,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 10",
+    "isPrimary": false
+   },
+   {
+    "id": 182,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/11.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/11.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/11.jpg",
+    "sortOrder": 11,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 11",
+    "isPrimary": false
+   },
+   {
+    "id": 183,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/12.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/12.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/12.jpg",
+    "sortOrder": 12,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 12",
+    "isPrimary": false
+   },
+   {
+    "id": 184,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/13.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/13.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/13.jpg",
+    "sortOrder": 13,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 13",
+    "isPrimary": false
+   },
+   {
+    "id": 185,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/14.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/14.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/14.jpg",
+    "sortOrder": 14,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 14",
+    "isPrimary": false
+   },
+   {
+    "id": 186,
+    "filePath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/15.jpg",
+    "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/15.jpg",
+    "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/15.jpg",
+    "sortOrder": 15,
+    "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014 – billede 15",
+    "isPrimary": false
+   }
+  ],
+  "features": [],
+  "relatedCars": [],
+  "coverImage": {
+   "thumbnailPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/01.jpg",
+   "webPPath": "/uploads/cars/renault-clio-iv-0-9-tce-90-dynamique-sport-tourer-5d-2014-2/01.jpg",
+   "altText": "Renault Clio IV 0,9 TCe 90 Dynamique Sport Tourer 5D 2014"
+  }
+ },
+ {
+  "id": 19,
+  "title": "Volvo S40",
+  "slug": "volvo-s40-1-6-4d-2003-1",
+  "make": "Volvo",
+  "model": "S40",
+  "variant": "1,6   4D",
+  "year": 2003,
+  "bodyType": "Sedan",
+  "fuelType": "Benzin",
+  "transmission": "Manuelt",
+  "mileage": 135000,
+  "horsepower": 109,
+  "numDoors": 4,
+  "driveType": "Forhjulstræk",
+  "price": 18900.0,
+  "status": "for_sale",
+  "isFeatured": true,
+  "isNew": false,
+  "badge": "FREMHÆVET",
+  "hasWarranty": true,
+  "warrantyDetails": "Mulighed for 12/24 mdr. garanti og nysynet levering efter aftale.",
+  "isPrepared": true,
+  "hasServiceHistory": true,
+  "isInspected": true,
+  "description": "VOLVO S40 – 2003 | KUN 135.000 KM | DEN KLASSISKE “EVIGHEDSMASKINE”\n\nHer får du en klassisk Volvo S40 fra 2003, som kun har kørt 135.000 km.\n\nBilen starter og kører perfekt og fremstår rigtig pæn og velholdt i forhold til sin alder. Også rustmæssigt står bilen pænt taget årgangen i betragtning.\n\nVolvo fra denne generation er kendt for sin solide konstruktion og driftssikkerhed – en rigtig “evighedsmaskine”, når den bliver passet ordentligt.\n\nBilen har cirka 1 år til næste syn og kan efter aftale leveres nysynet og nyserviceret mod merpris.\n\nUDSTYR &amp; INFO:\n• Servostyring\n• ABS-bremser\n• Airbags\n• Centrallås\n• El-ruder\n• El-spejle\n• Justerbart rat\n• Højdejusterbart førersæde\n• Kopholdere\n• Radio\n• 12V-stik\n• 4 Michelin helårsdæk\n• 2 nøgler med fjernbetjening\n• Kun 135.000 km\n• Ca. 1 år til næste syn\n\nEn solid og velkørende Volvo med lavt kilometertal, der stadig har masser af kilometer tilbage i sig.\n\n&#x1f527; Kan leveres nysynet og nyserviceret mod merpris.\n\n📞 Kontakt os for yderligere information eller for at aftale en fremvisning.\n\nAutohuset Kvik\n📍 Gammel Køge Landevej 477, Hvidovre\n&#x1f527; Eget værksted",
+  "createdAt": "2026-10-01T10:06:35.591235",
+  "images": [
+   {
+    "id": 159,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/01.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/01.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/01.jpg",
+    "sortOrder": 1,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 1",
+    "isPrimary": true
+   },
+   {
+    "id": 160,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/02.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/02.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/02.jpg",
+    "sortOrder": 2,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 2",
+    "isPrimary": false
+   },
+   {
+    "id": 161,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/03.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/03.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/03.jpg",
+    "sortOrder": 3,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 3",
+    "isPrimary": false
+   },
+   {
+    "id": 162,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/04.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/04.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/04.jpg",
+    "sortOrder": 4,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 4",
+    "isPrimary": false
+   },
+   {
+    "id": 163,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/05.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/05.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/05.jpg",
+    "sortOrder": 5,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 5",
+    "isPrimary": false
+   },
+   {
+    "id": 164,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/06.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/06.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/06.jpg",
+    "sortOrder": 6,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 6",
+    "isPrimary": false
+   },
+   {
+    "id": 165,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/07.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/07.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/07.jpg",
+    "sortOrder": 7,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 7",
+    "isPrimary": false
+   },
+   {
+    "id": 166,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/08.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/08.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/08.jpg",
+    "sortOrder": 8,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 8",
+    "isPrimary": false
+   },
+   {
+    "id": 167,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/09.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/09.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/09.jpg",
+    "sortOrder": 9,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 9",
+    "isPrimary": false
+   },
+   {
+    "id": 168,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/10.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/10.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/10.jpg",
+    "sortOrder": 10,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 10",
+    "isPrimary": false
+   },
+   {
+    "id": 169,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/11.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/11.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/11.jpg",
+    "sortOrder": 11,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 11",
+    "isPrimary": false
+   },
+   {
+    "id": 170,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/12.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/12.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/12.jpg",
+    "sortOrder": 12,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 12",
+    "isPrimary": false
+   },
+   {
+    "id": 171,
+    "filePath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/13.jpg",
+    "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/13.jpg",
+    "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/13.jpg",
+    "sortOrder": 13,
+    "altText": "Volvo S40 1,6  4D 2003 – billede 13",
+    "isPrimary": false
+   }
+  ],
+  "features": [],
+  "relatedCars": [],
+  "coverImage": {
+   "thumbnailPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/01.jpg",
+   "webPPath": "/uploads/cars/volvo-s40-1-6-4d-2003-1/01.jpg",
+   "altText": "Volvo S40 1,6  4D 2003"
+  }
+ }
+]

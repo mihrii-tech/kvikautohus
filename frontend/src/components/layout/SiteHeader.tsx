@@ -22,7 +22,6 @@ const navLinks = [
       { to: '/vaerksted/autohjaelp', label: 'Autohjælp' },
     ],
   },
-  { to: '/finansiering', label: 'Finansiering' },
   { to: '/om-os', label: 'Om os' },
   { to: '/kontakt', label: 'Kontakt' },
 ];

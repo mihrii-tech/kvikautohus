@@ -8,7 +8,7 @@ import { MOCK_CARS, MOCK_SERVICES, MOCK_TESTIMONIALS, MOCK_SETTINGS } from './mo
 
 // ─── LocalStorage Hjælpefunktioner ───
 const KEYS = {
-  CARS: 'autohus_cars',
+  CARS: 'autohus_cars_v2_real',
   LEADS: 'autohus_leads',
   TRADE_INS: 'autohus_trade_ins',
   BOOKINGS: 'autohus_bookings',
@@ -330,16 +330,16 @@ export const clientStore = {
       images: payload.images && payload.images.length > 0 ? payload.images : [
         {
           id: 1,
-          filePath: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80',
-          thumbnailPath: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80',
-          webPPath: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80',
+          filePath: '/images/dealership.jpg',
+          thumbnailPath: '/images/dealership.jpg',
+          webPPath: '/images/dealership.jpg',
           isPrimary: true,
           sortOrder: 1,
         }
       ],
       coverImage: {
-        thumbnailPath: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80',
-        webPPath: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80',
+        thumbnailPath: '/images/dealership.jpg',
+        webPPath: '/images/dealership.jpg',
         altText: title,
       },
       features: [
